@@ -12,6 +12,7 @@ html {
   height: 100vh;
   background-attachment: fixed;
   background-color: rgb(0, 11, 5);
+  color: white;
   scroll-behavior: smooth;
   position: relative;
   &::-webkit-scrollbar {
@@ -58,7 +59,6 @@ html {
         font-size: 130px;
         font-family: "Cormorant Garamond";
         color: rgba(255, 255, 255, 0.744);
-        // opacity: 0;
         transform: translateY(-15px);
         font-weight: lighter;
       }
@@ -144,4 +144,52 @@ html {
       }
     }
   }
+
+  #para {
+    background-color: rgb(0, 11, 5);
+    color: white;
+    margin: 10vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-out;
+    will-change: scroll-position;
+
+    h1 {
+      font-size: 6vw;
+      width: 70%;
+      color: rgb(198, 120, 4);
+      font-weight: bolder;
+      font-family: "raleway";
+    }
+
+    h3 {
+      font-size: 4vw;
+      width: 70%;
+      small {
+        font-size: 4vw;
+      }
+    }
+
+    small {
+      font-family: "Major Mono Display", monospace;
+      font-size: 2vw;
+    }
+
+    p {
+      font-family: 'Nanum Myeongjo', serif;
+      width: 70%;
+      font-size: 3vw;
+
+      span {
+        font-style: italic;
+        text-decoration: line-through;
+        color: rgb(198, 120, 4);
+      }
+    }
+
+
+  }
+
 }
