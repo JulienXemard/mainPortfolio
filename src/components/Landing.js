@@ -32,13 +32,13 @@ const Landing = ({ showContent }) => {
       }
     })
     t1
-      .to('.follow', {duration: 1.2, width: '100%', ease: Expo.easeInOut }, '+=0.7')
-      .to('.hide', {duration: 0.3, opacity: 0 })
-      .to('.hide', {duration: 0.1, display: 'none' })
-      .to('.follow', {duration: 0.7, height: '100%', ease: Expo.easeInOut }, '+=0.5')
-      .to('.content', {duration: 0.7, width: '100%', ease: Expo.easeInOut })
-      .to('.title-lines', {duration: 0.1, display: 'block' })
-      .to('.title-lines', {duration: 0.6, opacity: 1, stagger: 0.15, ease: Expo.easeInOut })
+      .to('.follow', { duration: 1.2, width: '100%', ease: Expo.easeInOut }, '+=0.7')
+      .to('.hide', { duration: 0.3, opacity: 0 })
+      .to('.hide', { duration: 0.1, display: 'none' })
+      .to('.follow', { duration: 0.7, height: '100%', ease: Expo.easeInOut }, '+=0.5')
+      .to('.content', { duration: 0.7, width: '100%', ease: Expo.easeInOut })
+      .to('.title-lines', { duration: 0.1, display: 'block' })
+      .to('.title-lines', { duration: 0.6, opacity: 1, stagger: 0.15, ease: Expo.easeInOut })
       .to('#scroll, li', {duration: 0.4, opacity: 1 }, '-=0.3')
       .to('main', {duration: 0.1, marginBottom: '15vw' })
   }

@@ -36,7 +36,7 @@ const About = () => {
         data-aos-easing="ease">
         <p>
           Over the past 10 years, I evolved from Mid to Top Mangament positions until the creation
-          of my own firm within the <span>Space</span> Retail industry. Fascinated by the digital impact in this very industry amongst other subjects such as <span>Sports</span> Neuralink, Machine Learning, AR & Space,
+          of my own firm within the <span>Space</span> Retail industry.<br/> Fascinated by the digital impact in this very industry amongst other subjects such as <span>Sports</span> Neuralink, Machine Learning, AR & Space,
           I undertook a professional reconversion.
         </p>
       </div>
