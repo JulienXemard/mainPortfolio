@@ -2,11 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: none;
   user-select: none;
+  outline: none;
 }
 
-body, html {
+body,
+html {
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
@@ -19,7 +20,7 @@ body, html {
 }
 
 #root {
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,13 +28,13 @@ body, html {
   background-color: rgb(0, 11, 5);
 
   .title-lines {
-    display: none;
     opacity: 0;
+    display: none;
   }
 
   main {
-    width: 100vh;
     height: 100vh;
+    width: 100vw;
     background-color: rgb(0, 11, 5);
 
     .loading {
@@ -48,38 +49,38 @@ body, html {
         position: absolute;
         left: 0;
         background-color: rgb(198, 120, 4);
-        height: 3px;
+        height: 2px;
         transition: 0.4s ease-out;
       }
 
       #count {
         position: absolute;
-        font-size: 120px;
+        font-size: 130px;
         font-family: "Cormorant Garamond";
         color: rgba(255, 255, 255, 0.744);
+        // opacity: 0;
+        transform: translateY(-15px);
         font-weight: lighter;
-        transform: translate(-15px);
-        text-align: center;
       }
 
       .follow {
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.744);
-        width: 0;
+        background-color: #48575e;
         height: 2px;
+        width: 0;
         left: 0;
         z-index: 2;
       }
     }
 
     .content {
-      position: absolute;
-      background-color: rgb(0, 11, 5);
-      font-weight: 250;
       height: 100%;
       width: 0;
+      position: absolute;
       left: 0;
-      right: 0;
+      top: 0;
+      background-color: rgb(0, 11, 5);
+      font-weight: 300;
       border: none;
       z-index: 5;
 
@@ -94,7 +95,6 @@ body, html {
       }
 
       nav {
-        color: rgb(198, 120, 4);
         position: fixed;
         top: 5%;
         left: 2%;
@@ -102,7 +102,6 @@ body, html {
         width: 35%;
 
         ul {
-          color: rgb(198, 120, 4);
           canvas {
             display: block;
             &:hover {
@@ -110,14 +109,39 @@ body, html {
             }
           }
           li {
-            color: rgb(198, 120, 4);
             list-style: none;
             opacity: 0;
           }
         }
       }
 
-    }
+      section {
+        height: 82.5%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
+        p {
+          color: white;
+          font-size: 8vw;
+          margin-bottom: -6.5vw;
+          padding: 3% 12%;
+          letter-spacing: 2px;
+          &:nth-of-type(1) {
+            text-align: end;
+          }
+          &:nth-of-type(3) {
+            text-align: end;
+          }
+
+          span {
+            font-family: "Major Mono Display", monospace;
+            color: #48575e;
+            font-size: 10vw;
+          }
+        }
+      }
+    }
   }
 }

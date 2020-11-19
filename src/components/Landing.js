@@ -77,10 +77,10 @@ const Landing = ({ showContent }) => {
       <div className='content'>
         <div id='scroll'>Atelier</div>
         <section>
-          <p className='title-lines'> <span>“</span>C<span>o</span>DE<span>R</span>,</p>
-          <p className='title-lines'>  DESI<span>G</span>N <span>A</span>DDICT,  </p>
+          <p className='title-lines'> <span>“</span>C<span>o</span>DE<span>R</span></p>
+          <p className='title-lines'>  DESI<span>G</span>N <span>A</span>DDICT  </p>
           <p className='title-lines'>  <span>A</span>BST<span>RA</span>CT </p>
-          <p className='title-lines'>T<span>H</span>INKE<span>R.”</span></p>
+          <p className='title-lines'>T<span>H</span>INKE<span>R”</span></p>
         </section>
         <nav>
           <ul>
