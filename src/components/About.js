@@ -53,7 +53,7 @@ const About = () => {
         data-aos-easing="ease">
         <p>
           <small>“</small>Life is about experiences<small>”</small><br/>
-          My work aims to offer minimalist design & clean <span>headhaches</span> solutions. 
+          My work aims to offer minimalist design & clean <span>headaches</span> solutions. 
           Constantly challenged by my learning addiction, I'm looking to join a team where I can learn 
           & <span>share a drink</span> develop my abilities, whilst contributing to the company's success.
         </p>
@@ -64,7 +64,7 @@ const About = () => {
         data-aos-duration="800"
         data-aos-easing="ease">
         <p>
-          Off my screen<small>,</small> you will either find me on a Bresilien Jiu Jitsu mat or on a trail in the nature with Le Dog. I do not hate <span>pineapples on pizza</span> whiskey & wine on good occasions.
+          Off my screen<small>,</small> you will either find me on a Bresilien Jiu Jitsu mat or on a trail in nature with Le Dog. I do not hate <span>pineapples on pizza</span> whiskey & wine on good occasions.
         </p>
       </div>
       <div id="para"
