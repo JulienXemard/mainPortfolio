@@ -30,8 +30,9 @@ const About = () => {
         data-aos-duration="800"
         data-aos-easing="ease">
         <h3>Bonjour<small>,</small> my name is Julien. </h3>
+        <br />
         <p>
-          A Junior Full Stack Developer & a recent graduate of the Software Engineering
+          I'm a Jr Full Stack Developer & a recent graduate of the Software Engineering
         programme at <span>M.I.T</span> General Assembly<small>,</small> London.
         </p>
       </div>
@@ -52,7 +53,7 @@ const About = () => {
         data-aos-offset="250"
         data-aos-easing="ease">
         <p>
-          <small>“</small>Life is about experiences<small>”</small><br/>
+          I believe life is about experiences.<br/>
           My work aims to offer minimalist design & clean <span>headaches</span> solutions. 
           Constantly challenged by my learning addiction, I'm looking to join a team where I can learn 
           & <span>share a drink</span> develop my abilities, whilst contributing to the company's success.
@@ -64,7 +65,7 @@ const About = () => {
         data-aos-duration="800"
         data-aos-easing="ease">
         <p>
-          Off my screen<small>,</small> you will either find me on a Bresilien Jiu Jitsu mat or on a trail in nature with Le Dog. I do not hate <span>pineapples on pizza</span> whiskey & wine on good occasions.
+          Off my screen<small>,</small> you will either find me on a Bresilien Jiu Jitsu mat or on a trail in nature with Le Dog.<br /> I do not hate <span>pineapples on pizza</span> Music.
         </p>
       </div>
       <div id="para"
@@ -72,7 +73,7 @@ const About = () => {
         data-aos-offset="250"
         data-aos-duration="800"
         data-aos-easing="ease">
-        <p>Currently Learning<small>:</small></p>
+        <p id="tech-titles">Currently Learning<small>:</small></p>
         <div className="technologies">
           {currentlyLearning.map(icon => (
             <div key={icon} className="tech-logo">
@@ -88,7 +89,7 @@ const About = () => {
             </div>
           ))}
         </div>
-        <p>Proficient<small>:</small></p>
+        <p id="tech-titles">Proficient<small>:</small></p>
         <div className="technologies">
           {proficientSkills.map(icon => (
             <div key={icon} className="tech-logo">
