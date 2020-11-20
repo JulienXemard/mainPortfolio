@@ -89,7 +89,7 @@ const Landing = ({ showContent }) => {
                 <li key={i} onClick={(e) => scroll(e)} >
                   <LiquidDistortionText
                     text={'-' + ' ' + nav}
-                    fill='#ff8f00'
+                    fill='#ff6200d8'
                     fontSize={19}
                     speed={0.3}
                     volatility={0.023}

@@ -81,8 +81,9 @@ const About = () => {
                 width={60}
                 height={60}
                 icon={icon}
-                primaryFill={'#C67804'}
+                primaryFill={'#ff6200d8'}
                 secondaryFill={'#48575e'}
+                backgroundFill={'#48575e'}
               />
             </div>
           ))}
@@ -96,8 +97,9 @@ const About = () => {
                 width={60}
                 height={60}
                 icon={icon}
-                primaryFill={'#C67804'}
+                primaryFill={'#ff6200d8'}
                 secondaryFill={'#48575e'}
+                // backgroundFill={'#48575e'}
               />
             </div>
           ))}
