@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ReactDOM from 'react-dom'
 import Landing from '../components/Landing'
 import About from '../components/About'
 import Projects from '../components/Projects'

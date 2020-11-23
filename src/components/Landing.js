@@ -9,7 +9,7 @@ gsap.registerPlugin(CSSPlugin)
 const Landing = ({ showContent }) => {
 
   const [counter, setCounter] = useState(0)
-  const [nav, setNav] = useState(['Digital Craftman', 'Projects', 'Stalk Me'])
+  const [nav, setNav] = useState(['Digital Craftman ?', 'Recent Projects', 'Talk & Stalk'])
 
   useEffect(() => {
     AOS.init()
@@ -23,7 +23,7 @@ const Landing = ({ showContent }) => {
         )
       ))
     }, 25)
-  }, [])
+  })
 
   const reveal = () => {
     const t1 = new TimelineLite({
@@ -48,17 +48,21 @@ const Landing = ({ showContent }) => {
 
     switch (e.target.innerHTML) {
       case 'Digital CraftMan ?':
-        section[0].scrollIntoView({
+        section.scrollIntoView({
+          behavior: 'smooth',
           block: 'center'
         })
+        console.log(section)
         break
       case 'Recent Projects':
-        section[1].scrollIntoView({
+        section.scrollIntoView({
+          behavior: 'smooth',
           block: 'center'
         })
         break
-      case 'Stalk Me':
-        section[2].scrollIntoView({
+      case 'Talk & Stalk':
+        section.scrollIntoView({
+          behavior: 'smooth',
           block: 'center'
         })
         break
@@ -86,9 +90,9 @@ const Landing = ({ showContent }) => {
           <ul>
             {nav.map((nav, i) => {
               return (
-                <li key={i} onClick={(e) => scroll(e)} >
+                <li key={i} onClick={e => scroll(e)} >
                   <LiquidDistortionText
-                    text={'-' + ' ' + nav}
+                    text={'-' + nav}
                     fill='#ff6200d8'
                     fontSize={19}
                     speed={0.3}
