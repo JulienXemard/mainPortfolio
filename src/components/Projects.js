@@ -52,7 +52,7 @@ const Projects = () => {
   }, [])
 
   const show = e => {
-    e.target.firstChild.innerText = 'let click = 🧐 ?'
+    e.target.firstChild.innerText = 'let hover = 🧐 ?'
   }
 
   const remove = e => {
@@ -79,7 +79,7 @@ const Projects = () => {
       </h5>
 
       <div className="xWings-container">
-        <a href="https://julienxemard.github.io/gameProject/" rel="noreferrer" target='_blank'>
+        {/* <a href="https://julienxemard.github.io/gameProject/" rel="noreferrer" target='_blank'> */}
           <div id="xWings-image"
             data-aos="fade-up" data-aos-offset="300"
             data-aos-duration="800" data-aos-easing="ease"
@@ -87,7 +87,7 @@ const Projects = () => {
             onMouseLeave={(e) => remove(e)}>
             <p> July 25th, 2020 </p>
           </div>
-        </a>
+        {/* </a> */}
         <img src="https://i.imgur.com/NLBPiNF.png" alt="X-Wing img"
           data-aos="fade-up" data-aos-offset="300"
           data-aos-duration="800" data-aos-easing="ease"/>
@@ -201,7 +201,7 @@ const Projects = () => {
       </h5>
 
       <div className="nalu-container">
-        <a href="https://julienxemard.github.io/gameProject/" rel="noreferrer" target='_blank'>
+        {/* <a href="/" rel="noreferrer" target='_blank'> */}
           <div id="nalu-image"
             data-aos="fade-up" data-aos-offset="300"
             data-aos-duration="800" data-aos-easing="ease"
@@ -209,7 +209,7 @@ const Projects = () => {
             onMouseLeave={(e) => remove(e)}>
             <p> August 28th, 2020 </p>
           </div>
-        </a>
+        {/* </a> */}
         <img src="https://i.imgur.com/Do0oqjS.png" alt="Nalu img"
           data-aos="fade-up" data-aos-offset="300"
           data-aos-duration="800" data-aos-easing="ease"/>
