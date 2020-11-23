@@ -385,7 +385,7 @@ html {
       width: 42vw;
       height: 45vw;
       position: relative;
-      margin-bottom: 5vw;
+      margin-bottom: 4vw;
       p {
         position: absolute;
         bottom: -30px;
@@ -710,6 +710,10 @@ html {
       transform: translate(0) !important;
       align-self: center !important;
     }
+  }
+
+  #atelierBC {
+    font-size: 9vw;
   }
 
 }
