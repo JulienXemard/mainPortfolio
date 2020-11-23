@@ -104,9 +104,9 @@ html {
         ul {
           canvas {
             display: block;
-            &:hover {
-              cursor: pointer;
-            }
+            // &:hover {
+            //   cursor: pointer;
+            // }
           }
           li {
             list-style: none;

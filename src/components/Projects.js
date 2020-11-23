@@ -99,9 +99,9 @@ const Projects = () => {
           <h1> X-Wings </h1>
           <div></div>
           <p><small> Project Brief </small><br /><br />
-            The game offers the user an immersive Star Wars shooting experience which includes a AR space wrap. This first project gave me a good understanding of what developers are dealing with in reality! The mental satisfaction once you solve a frustrating logical challenge coverted me.<br /><br />
+            The game offers the user an immersive Star Wars shooting experience which includes an AR space wrap. This first project gave me a good understanding of what developers are dealing with in reality! The mental satisfaction once you solve a frustrating logical challenge coverted me.<br /><br />
             
-            The brief allowed for 7 days to create a game strictly restricted to vanilla JS (no canvas), HTML & CSS. Researching solutions to implement 3D along with 2D really was interestin: it opened my eyes on the programming community & the ressources available to help you grow.
+            The brief allowed for 7 days to create a game strictly restricted to vanilla JS (no canvas), HTML & CSS. Researching solutions to implement 3D along with 2D really was interesting: it opened my eyes on the programming community & the ressources available to help you grow.
           </p>
           <br /><br />
           <small> Technologies Featured </small>
@@ -156,12 +156,13 @@ const Projects = () => {
           data-aos-duration="1000" data-aos-easing="ease">
 
           <h1> WeatherUp </h1>
-          <p><small> Project Brief </small><br /><br />
-            A 48h Hackathon in pair coding format to create a React front-end application using punlic API. 
-            WeatherUP App is linked to 4 APIs<br /><br />
+          <p><small> Project Brief </small>
+            <br /><br />
+            A 48h Hackathon in pair coding format to create a React front-end application using public API: WeatherUP is linked to 4.
+            <br /><br />
             The App gives users all bike point locations, subway stations around as well as weather & polution metrics related to their geolocation.
             This project gave an excellent introduction to pair coding & the necessity to communicate around clear deadlines to reach the project ambitous objectives.<br /><br />
-            Fortunately my collaboration with Brenda Ty, who has similar work ethics "along with a  personality", spiced up this Hackathon.
+            Fortunately my collaboration with Brenda Ty, who has similar work ethics "along with a  personality", made this Hackathon an incredible experience.
           </p>
           <br /><br />
           <small> Technologies Featured </small>
@@ -221,8 +222,8 @@ const Projects = () => {
           <h1> Nalu </h1>
           <div></div>
           <p><small> Project Brief </small><br /><br />
-            Nalu allows users to find all the best surf spots around the world with their current weather & tidal information relinking up to various publick APIs. Users can review, rate each spots & add them as favorite in their created account.<br /><br />
-            The client brief provisionned for 7 days to create a ReactJS front-end along with a MongoDB & Express.js (Node.js) as a Backend. This project was my first full stack application which still requires some finishes. Kindly visit the repository to follow the App progression.
+            Nalu allows users to find all the best surf spots around the world with their current weather & tidal information linked to various publick APIs. Users can review, rate each spot & add them as favorite in their created account.<br /><br />
+            The client brief provisionned for 7 days to create the App with ReactJS as front-end along with a MongoDB & Express.js (Node.js) as a Back-end technologies. This project was my first full stack application which still requires some finishes. Kindly visit the repository to follow the App progression.
           </p>
           <br /><br />
           <small> Technologies Featured </small>
