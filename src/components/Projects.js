@@ -240,7 +240,7 @@ const Projects = () => {
           </ul>
           <br />
           <br />
-          <a href='https://github.com/JulienXemard/mongoReact-Project'
+          <a href='https://github.com/JulienXemard/Nalu'
             rel="noopener noreferrer" 
             target="_blank">
             <ion-icon name="logo-github"></ion-icon> 
