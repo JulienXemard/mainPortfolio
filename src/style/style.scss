@@ -247,8 +247,8 @@ html {
 
   .xWings-container,
   .weatherUp-container,
-  .fin-container,
-  .pac-container {
+  .nalu-container,
+  .apperture-container {
     transition: 0.3s ease-out;
     will-change: transform;
     width: 100vw;
@@ -305,7 +305,8 @@ html {
     }
   }
 
-  .fin-container,
+  .apperture-container,
+  .nalu-container,
   .weatherUp-container,
   .xWings-container {
     flex-direction: column-reverse;
@@ -381,8 +382,8 @@ html {
 
     #xWings-image, #weatherUp-image,
     #nalu-image, #apperture-image {
-      width: 60vw;
-      height: 30vw;
+      width: 42vw;
+      height: 45vw;
       position: relative;
       margin-bottom: 5vw;
       p {
@@ -392,7 +393,7 @@ html {
         color: rgb(235, 232, 232);
       }
       &::after {
-        content: "PRJ WRK 004";
+        content: "Project 003";
         display: block;
         color: rgb(235, 232, 232);
         position: absolute;
@@ -404,13 +405,12 @@ html {
       }
     }
 
-    #fin-image {
+    #nalu-image {
       box-shadow: 0.5px 0.5px 4px rgb(7, 7, 7);
     }
   }
 
   .xWings-container {
-
     #proj-text {
       h1 {
         font-family: "raleway";
@@ -418,19 +418,18 @@ html {
 
     }
     
-
     #xWings-image {
       box-shadow: 1.3px 1.3px 6px rgb(0, 0, 0);
       &::after {
         content: "Project 001";
       }
-      &:hover {
+      #xWings-image:hover {
         cursor: initial;
       }
     }
   }
- 
 
+  .apperture-container,
   .weatherUp-container {
     flex-direction: column;
     align-items: flex-start;
@@ -439,6 +438,7 @@ html {
     .arrow {
       transform: rotate(120deg);
     }
+
     #proj-text {
       width: 58%;
       text-align: start;
@@ -455,56 +455,17 @@ html {
         width: 75%;
       }
     }
+    
     #weatherUp-image {
       box-shadow: 1.3px 1.3px 6px rgb(0, 0, 0);
       &::after {
-        content: "PRJ WRK 003";
+        content: "Project 002";
       }
     }
-  }
-
-  .pac-container {
-    justify-content: space-around;
-    padding-left: 5%;
-    position: relative;
-
-    #pac-image {
-      width: 35vw;
-      height: 40vw;
-      position: relative;
-      margin-bottom: 5vw;
+    #apperture-image {
       box-shadow: 1.3px 1.3px 6px rgb(0, 0, 0);
-      p {
-        position: absolute;
-        bottom: -30px;
-        left: 5px;
-        color: rgb(235, 232, 232);
-      }
       &::after {
-        content: "PRJ WRK 005";
-        display: block;
-        color: rgb(235, 232, 232);
-        position: absolute;
-        right: -70px;
-        bottom: 55px;
-        transform: rotate(90deg);
-      }
-      &:hover {
-        cursor: pointer;
-      }
-    }
-    #proj-text {
-      width: 50%;
-      h1 {
-        font-size: 6.3vmax;
-        color: rgb(238, 238, 238);
-        font-family: "Press Start 2P", cursive;
-      }
-      p {
-        width: 80%;
-      }
-      ul {
-        columns: 1;
+        content: "Project 004";
       }
     }
   }
@@ -584,6 +545,7 @@ html {
           color: white;
         }
       }
+
       button {
         width: 200px;
         height: 200px;
@@ -629,7 +591,8 @@ html {
 
 @media only screen and(max-width: 800px) {
   svg {
-    display: none;
+    height: 30px;
+    width: 30px;
   }
   .arrow {
     display: none;
@@ -668,12 +631,12 @@ html {
   .text-slider {
     margin: 0 !important;
     span {
-      font-size: 120px !important;
+      font-size: 60px !important;
     }
   }
 
-  .fin-container,
-  .pac-container,
+  .apperture-container,
+  .nalu-container,
   .weatherUp-container,
   .xWings-container {
     flex-direction: column !important;
@@ -703,7 +666,8 @@ html {
       }
     }
 
-    #fin-image,
+    #apperture-image,
+    #nalu-image,
     #weatherUp-image,
     #xWings-image {
       width: 85vw !important;
@@ -713,35 +677,22 @@ html {
       }
     }
 
-    img {
-      display: block !important;
-      width: 86vw;
-      height: 45vw;
-      margin-top: 15px;
-      box-shadow: 1.3px 1.3px 6px rgb(0, 0, 0);
-    }
-
-    #pac-image {
-      width: 80vw !important;
-      height: 93vw !important;
-    }
+    // img {
+    //   display: block !important;
+    //   width: 86vw;
+    //   height: 45vw;
+    //   margin-top: 15px;
+    //   box-shadow: 1.3px 1.3px 6px rgb(0, 0, 0);
+    // }
   }
 
+  .nalu-container,
+  .apperture-container,
   .weatherUp-container,
   .xWings-container {
     #proj-text {
       transform: translate(0) !important;
       align-self: center !important;
-    }
-  }
-
-  .pac-container {
-    #proj-text {
-      margin-bottom: 10vw !important;
-      h1 {
-        text-align: center;
-        font-size: 8.5vw !important;
-      }
     }
   }
 

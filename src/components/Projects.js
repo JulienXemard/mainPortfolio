@@ -58,7 +58,7 @@ const Projects = () => {
   }
 
   const remove = e => {
-    const images = ['xWings-image', 'weeatherUp-imgage', 'nalu-image', 'appererture-image']
+    const images = ['xWings-image', 'weatherUp-image', 'nalu-image', 'apperture-image']
     const dates = ['July 25th, 2020', 'August 13th, 2020', 'August 28th, 2020', 'September 17th, 2020']
 
     images.map((p, i) => e.target.id === p ? e.target.firstChild.innerText = dates[i] : null)
@@ -90,7 +90,7 @@ const Projects = () => {
             <p> July 25th, 2020 </p>
           </div>
         </a>
-        <img src="https://i.imgur.com/plD3syj.png" alt="X-Wing img"
+        <img src="https://i.imgur.com/NLBPiNF.png" alt="X-Wing img"
           data-aos="fade-up" data-aos-offset="300"
           data-aos-duration="800" data-aos-easing="ease"/>
 
@@ -149,7 +149,7 @@ const Projects = () => {
           <p> August 13th, 2020 </p>
         </div>
 
-        <img src="https://i.imgur.com/C9oaEVK.png" alt="weatherUp img"
+        <img src="https://i.imgur.com/6fXERmm.png" alt="weatherUp img"
           data-aos="fade-up" data-aos-offset="300"
           data-aos-duration="800" data-aos-easing="ease"/>
 
@@ -158,7 +158,7 @@ const Projects = () => {
           data-aos-duration="1000" data-aos-easing="ease">
 
           <h1> WeatherUp </h1>
-          <p><small> Project Brief </small><br />
+          <p><small> Project Brief </small><br /><br />
             A 48h Hackathon in pair coding format to create a React front-end application using punlic API. 
             WeatherUP App is linked to 4 APIs<br /><br />
             The App gives users all bike point locations, subway stations around as well as weather & polution metrics related to their geolocation.
@@ -197,53 +197,65 @@ const Projects = () => {
 
       <h5 className='text-slider'>
         <span>
-          - FINANCIER - FINANCIER - FINANCIER - FINANCIER - FINANCIER - FINANCIER - FINANCIER
-          - FINANCIER - FINANCIER - FINANCIER - FINANCIER - FINANCIER - FINANCIER - FINANCIER -
+          | Nalu | Nalu | Nalu | Nalu | Nalu | Nalu | Nalu | Nalu | Nalu
+          | Nalu | Nalu | Nalu | Nalu | Nalu | Nalu | Nalu | Nalu | Nalu
         </span>
       </h5>
 
-      <div className="fin-container">
-        <a href="http://seangpachareonsub.com/financier/" target='_blank'>
-          <div data-aos="fade-up" data-aos-offset="300"
+      <div className="nalu-container">
+        <a href="https://julienxemard.github.io/gameProject/" rel="noreferrer" target='_blank'>
+          <div id="nalu-image"
+            data-aos="fade-up" data-aos-offset="300"
             data-aos-duration="800" data-aos-easing="ease"
             onMouseEnter={(e) => show(e)}
-            onMouseLeave={(e) => remove(e)} id="fin-image">
-            <p> 11.03.20 </p>
+            onMouseLeave={(e) => remove(e)}>
+            <p> August 28th, 2020 </p>
           </div>
         </a>
-        <img id='fin-imageTwo' data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-duration="800" data-aos-easing="ease"
-          src="https://i.imgur.com/8jmRsRA.png" alt="" />
+        <img src="https://i.imgur.com/Do0oqjS.png" alt="Nalu img"
+          data-aos="fade-up" data-aos-offset="300"
+          data-aos-duration="800" data-aos-easing="ease"/>
 
-        <div data-aos="fade-up" data-aos-offset="300"
-          data-aos-duration="1000" data-aos-easing="ease"
-          id='proj-text'>
-          <h1> Financier </h1>
-          <p> <small> PRJ CONCPT </small> <br />
-            A paired production of a React front-end application consuming a public API.
-            Financier aims to bridge together the most relevant global news and updated
-            CryptoCurrency market prices.
-            <br /> <br />
-            The application's interface allows users to browse as well as search for specific
-            news articles and is equipped with a user interactive CryptoCurrency price chart.
+        <div id='proj-text'
+          data-aos="fade-up" data-aos-offset="300"
+          data-aos-duration="1000" data-aos-easing="ease">
+
+          <h1> Nalu </h1>
+          <div></div>
+          <p><small> Project Brief </small><br /><br />
+            Nalu allows users to find all the best surf spots around the world with their current weather & tidal information relinking up to various publick APIs. Users can review, rate each spots & add them as favorite in their created account.<br /><br />
+            The client brief provisionned for 7 days to create a ReactJS front-end along with a MongoDB & Express.js (Node.js) as a Backend. This project was my first full stack application which still requires some finishes. Kindly visit the repository to follow the App progression.
           </p>
-          <br />
-          <small> TECH FEATURED </small>
+          <br /><br />
+          <small> Technologies Featured </small>
+          <br /><br />
           <ul>
-            <li> React.js </li>
+          <li> React.js </li>
             <li> JavaScript (ES6) </li>
-            <li> HTML5/SASS </li>
-            <li> Moment.js</li>
+            <li> MongoDB </li>
+            <li> Mongoose </li>
+            <li> Node.js </li>
+            <li> Express.js</li>
+            <li> HTML5 | sass | Bulma </li>
             <li> Axios </li>
-            <li> New York Times API </li>
-            <li> CoinGecko API </li>
+            <li> JSON Web Token </li>
           </ul>
           <br />
-          <a href='https://github.com/seangpachareonsub/financier'>
-            <ion-icon name="logo-github"></ion-icon> VIEW REPO </a>
+          <br />
+          <a href='https://github.com/JulienXemard/mongoReact-Project'
+            rel="noopener noreferrer" 
+            target="_blank">
+            <ion-icon name="logo-github"></ion-icon> 
+            View Repo 
+          </a>
+          <br/>
+          <a href='https://naluwave.herokuapp.com/' 
+            rel="noopener noreferrer" 
+            target="_blank">
+            <ion-icon name="link-outline"></ion-icon> 
+            Link 
+          </a>
         </div>
-
         <svg id='circle-1' width="23vw" height="23vw" className="circle">
           <circle cx="11.5vw" cy="11.5vw" r="11.4vw" />
         </svg>
@@ -252,10 +264,70 @@ const Projects = () => {
 
       <h5 className='text-slider'>
         <span>
-          - PACMAN - PACMAN  - PACMAN  - PACMAN  - PACMAN - PACMAN  - PACMAN
-          - PACMAN - PACMAN  - PACMAN  - PACMAN  - PACMAN - PACMAN  - PACMAN -
+        | APPerture | APPerture | APPerture | APPerture | APPerture | APPerture
+        | APPerture | APPerture | APPerture | APPerture | APPerture | APPerture
         </span>
       </h5>
+      <div className="apperture-container">
+        <div id="apperture-image"
+          data-aos="fade-up" data-aos-offset="300"
+          data-aos-duration="800" data-aos-easing="ease"
+          onMouseEnter={(e) => show(e)}
+          onMouseLeave={(e) => remove(e)}>
+          <p> September 17th, 2020 </p>
+        </div>
+
+        <img src="https://i.imgur.com/AtbKZVD.png" alt="weatherUp img"
+          data-aos="fade-up" data-aos-offset="300"
+          data-aos-duration="800" data-aos-easing="ease"/>
+
+        <div id='proj-text'
+          data-aos="fade-up" data-aos-offset="300"
+          data-aos-duration="1000" data-aos-easing="ease">
+
+          <h1> APPerture </h1>
+          <p><small> Project Brief </small><br /><br />
+            A Project created in 7 days using Python & Django as back-end technologies.
+            I worked in collaboration with Brenda Ty, another Full Stack developper who equally shares an interest for photographes.
+            <br /><br /> We decided to use the lastest React Hooks methods along with Material UI. With no previous experience or knowledge, we also included some of React-Spring features to render some parallax effects.
+            <br /><br /> APPerture has been inspired by Instagram. Our application allows users to created a profile & post monochrome photographes with the abilities to follow, leave comments & like each others.
+          </p>
+          <br /><br />
+          <small> Technologies Featured </small>
+          <br /><br />
+          <ul>
+          <li> React.js </li>
+            <li> JavaScript (ES6)</li>
+            <li> Django Rest Framework </li>
+            <li> Python </li>
+            <li> PostgreSQL</li>
+            <li> HTML5 | CSS </li>
+            <li> Material UI </li>
+            <li> Axios </li>
+            <li> JSON Web Token </li>
+            <li> React Map GL </li>
+          </ul>
+          <br />
+          <a href='http://apperture-project.herokuapp.com/'
+            rel="noopener noreferrer" 
+            target="_blank">
+            <ion-icon name="logo-github"></ion-icon> 
+            View Repo 
+          </a>
+          <br/>
+          <a href='https://github.com/JulienXemard/APPerture-FinalProject' 
+            rel="noopener noreferrer" 
+            target="_blank">
+            <ion-icon name="link-outline"></ion-icon> 
+            Link 
+          </a>
+        </div>
+        <svg id='circle-1' width="23vw" height="23vw" className="circle">
+          <circle cx="11.5vw" cy="11.5vw" r="11.4vw" />
+        </svg>
+        <div className="arrow"></div>
+      </div >
+
       <h6> More projects coming soon ... </h6>
     </>
   )

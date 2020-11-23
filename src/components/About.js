@@ -22,7 +22,7 @@ const About = () => {
         data-aos-delay="100"
         data-aos-duration="800"
         data-aos-easing="ease">
-        <h1 className="section-title"><small>(001)</small> Who am I ?</h1>
+        <h1 className="section-title"><small>(001)</small> Digital Craftman ?</h1>
       </div>
       <div id="para"
         data-aos="fade-up"

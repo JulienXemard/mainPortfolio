@@ -47,17 +47,17 @@ const Landing = ({ showContent }) => {
     const section = document.querySelectorAll('.section-title')
 
     switch (e.target.innerHTML) {
-      case '- Digital CraftMan?':
+      case 'Digital CraftMan ?':
         section[0].scrollIntoView({
           block: 'center'
         })
         break
-      case '- Projects Completed':
+      case 'Recent Projects':
         section[1].scrollIntoView({
           block: 'center'
         })
         break
-      case '- Stack Me':
+      case 'Stalk Me':
         section[2].scrollIntoView({
           block: 'center'
         })
