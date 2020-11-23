@@ -43,7 +43,7 @@ const Landing = ({ showContent }) => {
       .to('main', {duration: 0.1, marginBottom: '15vw' })
   }
 
-  const scroll = (e) => {
+  const scroll = e => {
     const section = document.querySelectorAll('.section-title')
 
     switch (e.target.innerHTML) {
@@ -52,7 +52,6 @@ const Landing = ({ showContent }) => {
           behavior: 'smooth',
           block: 'center'
         })
-        console.log(section)
         break
       case 'Recent Projects':
         section.scrollIntoView({
