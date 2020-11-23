@@ -33,7 +33,7 @@ const About = () => {
         <br />
         <p>
           I'm a Jr Full Stack Developer & a recent graduate of the Software Engineering
-        programme at <span>M.I.T</span> General Assembly<small>,</small> London.
+        program at <span>M.I.T</span> General Assembly<small>,</small> London.
         </p>
       </div>
       <div id="para"
@@ -43,7 +43,7 @@ const About = () => {
         data-aos-easing="ease">
         <p>
           Over the past 10 years, I evolved from Mid to Top Mangament positions until the creation
-          of my own firm within the <span>Space</span> Retail industry.<br/><br/> Fascinated by the digital impact in this very industry amongst other subjects such as Neuralink, Machine Learning|AI, AR & Space,
+          of my own firm within the <span>Space</span> Retail industry.<br/><br/> Fascinated by the digital impact in this market amongst other subjects such as Neuralink, Machine Learning|AI, AR & Space,
           I undertook a professional reconversion. Afterall, isn't life about experiences ?
         </p>
       </div>
