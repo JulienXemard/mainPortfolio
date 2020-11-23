@@ -472,9 +472,10 @@ html {
 
   h6 {
     text-align: center;
+    font-family: "Cormorant Garamond";
     font-size: 4vw;
     margin-bottom: 15vw;
-    color: rgb(150, 148, 148);
+    color: #48575e;
   }
 
   form {
@@ -576,6 +577,21 @@ html {
       }
     }
   }
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10vw;
+}
+
+#atelierBC {
+  text-align: right;
+  margin-right: 5%;
+  margin-bottom: 10vw;
+  font-family: "Libre Barcode 39 Extended Text", cursive;
+  color: #ff6200d8;
+  font-size: 37px;
 }
 
 .modal-content {

@@ -43,8 +43,8 @@ const About = () => {
         data-aos-easing="ease">
         <p>
           Over the past 10 years, I evolved from Mid to Top Mangament positions until the creation
-          of my own firm within the <span>Space</span> Retail industry.<br/> Fascinated by the digital impact in this very industry amongst other subjects such as Neuralink, Machine Learning, AR & Space,
-          I undertook a professional reconversion.
+          of my own firm within the <span>Space</span> Retail industry.<br/><br/> Fascinated by the digital impact in this very industry amongst other subjects such as Neuralink, Machine Learning|AI, AR & Space,
+          I undertook a professional reconversion. Afterall, isn't life about experiences ?
         </p>
       </div>
       <div id="para"
@@ -53,7 +53,6 @@ const About = () => {
         data-aos-offset="250"
         data-aos-easing="ease">
         <p>
-          I believe life is about experiences.<br/>
           My work aims to offer minimalist design & clean <span>headaches</span> solutions. 
           Constantly challenged by my learning addiction, I'm looking to join a team where I can learn 
           & <span>share a drink</span> develop my abilities, whilst contributing to the company's success.
