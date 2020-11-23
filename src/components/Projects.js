@@ -173,14 +173,14 @@ const Projects = () => {
             <li> Axios </li>
           </ul>
           <br />
-          <a href='https://github.com/JulienXemard/reactProject'
+          <a href='https://github.com/JulienXemard/weatherUP'
             rel="noopener noreferrer" 
             target="_blank">
             <ion-icon name="logo-github"></ion-icon> 
             View Repo 
           </a>
           <br/>
-          <a href='https://github.com/JulienXemard/reactProject' 
+          <a href='https://github.com/JulienXemard/weatherUP' 
             rel="noopener noreferrer" 
             target="_blank">
             <ion-icon name="link-outline"></ion-icon> 
@@ -306,14 +306,14 @@ const Projects = () => {
             <li> React Map GL </li>
           </ul>
           <br />
-          <a href='http://apperture-project.herokuapp.com/'
+          <a href='https://github.com/JulienXemard/APPerture'
             rel="noopener noreferrer" 
             target="_blank">
             <ion-icon name="logo-github"></ion-icon> 
             View Repo 
           </a>
           <br/>
-          <a href='https://github.com/JulienXemard/APPerture-FinalProject' 
+          <a href='http://apperture-project.herokuapp.com/'
             rel="noopener noreferrer" 
             target="_blank">
             <ion-icon name="link-outline"></ion-icon> 
