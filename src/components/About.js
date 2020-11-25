@@ -43,7 +43,16 @@ const About = () => {
         data-aos-easing="ease">
         <p>
           Over the past 10 years, I evolved from Mid to Top Mangament positions until the creation
-          of my own firm within the <span>Space</span> Retail industry.<br/><br/> Fascinated by the digital impact in this very market amongst other subjects such as Neuralink, Machine Learning|AI, AR & Space,
+          of my own firm within the <span>Space</span> Retail industry.
+        </p>
+      </div>
+      <div id="para"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-offset="250"
+        data-aos-easing="ease">
+        <p>
+          Fascinated by the digital impact in this very market amongst other subjects such as Neuralink, Machine Learning|AI, AR & Space,
           I undertook a professional reconversion. Afterall, isn't life about experiences ?
         </p>
       </div>
