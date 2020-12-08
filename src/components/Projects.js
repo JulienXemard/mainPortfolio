@@ -162,7 +162,7 @@ const Projects = () => {
             <br /><br />
             The App gives users all bike point locations, subway stations around as well as weather & polution metrics related to their geolocation.
             This project gave an excellent introduction to pair coding & the necessity to communicate around clear deadlines to reach the project ambitous objectives.<br /><br />
-            Fortunately my collaboration with Brenda Ty, who has similar work ethics "along with a  personality", made this Hackathon an incredible experience.
+            Fortunately my collaboration with Brenda Ty, who has similar work ethics "along with a personality", made an incredible experience of this Hackathon.
           </p>
           <br /><br />
           <small> Technologies Featured </small>
@@ -222,8 +222,10 @@ const Projects = () => {
           <h1> Nalu </h1>
           <div></div>
           <p><small> Project Brief </small><br /><br />
-            Nalu allows users to find all the best surf spots around the world with their current weather & tidal information linked to various publick APIs. Users can review, rate each spot & add them as favorite in their created account.<br /><br />
-            The client brief provisionned for 7 days to create the App with ReactJS as front-end along with a MongoDB & Express.js (Node.js) as a Back-end technologies. This project was my first full stack application which still requires some finishes. Kindly visit the repository to follow the App progression.
+            Nalu allows users to find all the best surf spots around the world with their current weather & tidal information linked to various public APIs. 
+            Users can review, rate & add each spot as favorite in their created account.<br /><br />
+            The client brief provisionned for 7 days to create the App with ReactJS as front-end along with a MongoDB & Express.js (Node.js) as a Back-end technologies. 
+            This project was my first full stack application which still requires some finishes. Kindly visit the repository to follow the App progression.
           </p>
           <br /><br />
           <small> Technologies Featured </small>
@@ -288,8 +290,9 @@ const Projects = () => {
           <p><small> Project Brief </small><br /><br />
             A Project created in 7 days using Python & Django as back-end technologies.
             I worked in collaboration with Brenda Ty, another Full Stack developper who equally shares an interest for photographes.
-            <br /><br /> We decided to use the lastest React Hooks methods along with Material UI. With no previous experience or knowledge, we also included some of React-Spring features to render some parallax effects.
-            <br /><br /> APPerture has been inspired by Instagram. Our application allows users to created a profile & post monochrome photographes with the abilities to follow, leave comments & like each others.
+            <br /><br /> We decided to use the lastest React Hooks methods along with Material UI. 
+            With no previous experience, we also included some of React-Spring features to render some parallax effects.
+            <br /><br /> APPerture has been inspired from Instagram. Our application allows users to created a profile & post monochrome photographes with the abilities to follow, leave comments & like each others.
           </p>
           <br /><br />
           <small> Technologies Featured </small>

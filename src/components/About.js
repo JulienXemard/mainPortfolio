@@ -97,7 +97,7 @@ const About = () => {
             </div>
           ))}
         </div>
-        <p id="tech-titles">Proficient<small>:</small></p>
+        <p id="tech-titles">Fundamentals<small>:</small></p>
         <div className="technologies">
           {proficientSkills.map(icon => (
             <div key={icon} className="tech-logo">
